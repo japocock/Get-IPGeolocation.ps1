@@ -12,20 +12,11 @@ Specifies the IP address to lookup.
 ```
 
 ## Credits
-Written by: Paul Cunningham
-
-Find me on:
-
-* My Blog:	https://paulcunningham.me
-* Twitter:	https://twitter.com/paulcunningham
-* LinkedIn:	https://au.linkedin.com/in/cunninghamp/
-* Github:	https://github.com/cunninghamp
-
-Freegeoip.net is a public HTTP API for geolocation data. They
-permit up to 10,000 queries per hour by default.
-
-Go to http://freegeoip.net to find out more.
+Originally written by: Paul Cunningham. Fixed for 2019 by japocock.
 
 Change Log
 V1.00, 13/03/2015 - Initial version
-
+V2.0, 12/02/2019 - Fixed for 2019
+- Now references https://ipstack.com/
+- Variable for IP key (free for 10.000 requests per month)
+- Using the IPAddress class for variable.
